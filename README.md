@@ -20,3 +20,12 @@ sudo apt-get install unetbootin
 To run these binaries, download them and run the command chmod +x ./unetbootin-linux, 
 or go to Properties->Permissions and check "Execute"), then start the application 
 by running ./unetbootin-linux
+
+or
+you can download sourceCode and install from source
+unetbootin-source-661.tar.gz
+tar -xzvf unetbootin-source-661.tar.gz
+cd unetbootin-source-661
+./configure
+make
+sudo make install
